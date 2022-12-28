@@ -84,7 +84,7 @@
               // Saving values in a template string
               const results = `Its currently <span class="temp">${Math.round(
                 tempature
-              )}</span> degrees and <span class="weather">${weather}</span> in Brentwood Tennessee.`;
+              )}&deg;</span> degrees and <span class="weather">${weather}</span> in Brentwood Tennessee.`;
 
               // Rendering results to the Dom in the setResults method
               return this.setResults(results);
